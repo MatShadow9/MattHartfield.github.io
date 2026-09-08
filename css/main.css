@@ -1,0 +1,33 @@
+.page {
+    width: calc(100% - 220px);
+    margin-left: 220px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: large;
+}
+
+.image-text-box {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    text-align: left;
+}
+
+body {
+    background-color: darkblue;
+
+    color: white;
+}
+
+img {
+    float: left;
+    width: 250px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}

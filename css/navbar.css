@@ -1,0 +1,56 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    background-color: black;
+}
+
+.sidebar a {
+    padding: 10px;
+
+    color: white;
+}
+
+.sidebar a:hover {
+    background-color: red;
+}
+
+.dropdown-button {
+    width: 100%;
+    padding: 10px 10px;
+
+    background: none;
+    border: none;
+
+    color: white;
+    font-size: 16px;
+    font-family: inherit;
+    text-align: left;
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+.dropdown-button:hover {
+    background-color: red;
+}
+
+.dropdown-arrow {
+    float: right;
+}
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+}
+
+.dropdown-menu a {
+    padding-left: 20px;
+}
